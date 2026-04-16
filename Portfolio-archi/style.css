@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.section {
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    background: rgb(206, 143, 65);
+}
+
+.big.section {
+    min-width: 400vw;
+    background: rgb(215, 202, 87);
+}
+
+.hori {
+    background: rgb(233, 220, 147);
+}
