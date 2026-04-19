@@ -21,7 +21,8 @@ nav {
     position: fixed;
     top: 5vh;
     right: 6vw;
-    color: white;
+    color: rgb(86, 65, 65);
+    font-weight: 700;
     gap: 2vw;
     background: transparent;
     display: flex;
@@ -29,7 +30,7 @@ nav {
 }
 
 span {
-    border: 2px solid rgb(218, 188, 148);
+    border: 2px solid white;
     border-radius: 1rem;
     padding: 0.5vw 1vw;
 }
@@ -40,12 +41,12 @@ span {
 }
 
 .main {
-    background: rgb(206, 143, 65);
+    background: rgb(202, 182, 158);
 }
 
 .big.section {
     min-width: 400vw;
-    background: rgb(215, 202, 87);
+    background: rgb(148, 144, 116);
 }
 
 .hori {
